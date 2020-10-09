@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  --slack-color: #3f0f40;
+}
+
+.app__body {
+  display: flex;
+  height: 100vh;
+}
+
+.app__description {
+  flex: 0.8;
+  background: #f8f8f8;
+  display: grid;
+  place-items: center;
+}
+
+.app__descriptionContainer {
+  padding: 100px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
